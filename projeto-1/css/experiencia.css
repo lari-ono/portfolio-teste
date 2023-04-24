@@ -47,8 +47,10 @@
 
 .empresa-ano {
   position: absolute;
-  top: 20px;
+  top: 22px;
   left: -100px;
+  text-align: right;
+  width: 80px;
   color: #525252;
   font-size: 0.875rem;
 }
@@ -77,4 +79,26 @@
   line-height: 1.4;
   border-radius: 4px;
   background: #fff;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  .subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+  }
+}
+
+@media (max-width: 800px) {
+  .subtitulo
+    font-size: 3rem;
+
 }
